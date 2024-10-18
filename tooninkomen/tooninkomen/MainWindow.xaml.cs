@@ -20,5 +20,22 @@ namespace tooninkomen
         {
             InitializeComponent();
         }
+
+        private void showIncomeBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+            int.TryParse(yearSalaryTextBox.Text, out int yearSalary);
+            int.TryParse(yearsTextBox.Text, out int years);
+
+            int totalIncome = ShowIncome(yearSalary, years);
+
+            totalIncomeTextBox.Text = totalIncome.ToString();
+
+        }
+
+        int ShowIncome(int yearSalary, int years)
+        {
+            return yearSalary * years;
+        }
     }
 }
