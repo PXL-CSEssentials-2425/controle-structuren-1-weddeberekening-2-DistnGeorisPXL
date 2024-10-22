@@ -1,0 +1,23 @@
+﻿<Window x:Class="h4rekenmachine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:h4rekenmachine"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Getal 1" HorizontalAlignment="Left" Margin="168,135,0,0" VerticalAlignment="Top"/>
+        <Label Content="Getal 2" HorizontalAlignment="Left" Margin="168,201,0,0" VerticalAlignment="Top"/>
+        <Label Content="Resultaat" HorizontalAlignment="Left" Margin="157,317,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="number1TextBox" HorizontalAlignment="Left" Margin="324,139,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="number2TextBox" HorizontalAlignment="Left" Margin="324,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="resultTextBox" HorizontalAlignment="Left" Margin="324,321,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="plusBtn" Content="+" HorizontalAlignment="Left" Margin="559,138,0,0" VerticalAlignment="Top" Click="plusBtn_Click" Width="20" Height="20"/>
+        <Button Name="xBtn" Content="*" HorizontalAlignment="Left" Margin="675,139,0,0" VerticalAlignment="Top" Click="xBtn_Click" Width="20" Height="20"/>
+        <Button Name="minusBtn" Content="-" HorizontalAlignment="Left" Margin="559,204,0,0" VerticalAlignment="Top" Click="minusBtn_Click" Width="20" Height="20"/>
+        <Button Name="devideBtn" Content=":" HorizontalAlignment="Left" Margin="675,204,0,0" VerticalAlignment="Top" Click="devideBtn_Click" Width="20" Height="20"/>
+        <Button Name="clearBtn" Content="WISSEN" HorizontalAlignment="Left" Margin="587,319,0,0" VerticalAlignment="Top" Click="clearBtn_Click" Width="80" Height="30"/>
+
+    </Grid>
+</Window>
