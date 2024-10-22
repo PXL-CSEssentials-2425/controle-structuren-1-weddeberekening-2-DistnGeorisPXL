@@ -12,7 +12,7 @@
         <TextBox Name="startStudentnummerTextBox" HorizontalAlignment="Left" Margin="196,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="50"/>
         <TextBox Name="eindStudentnummerTextBox" HorizontalAlignment="Left" Margin="410,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Height="50"/>
         <TextBox Name="resultTextBox" HorizontalAlignment="Left" Margin="196,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="414" Height="109"/>
-        <Button Name="groupButton" Content="Button" HorizontalAlignment="Left" Margin="585,86,0,0" VerticalAlignment="Top" Width="158" Height="50"/>
+        <Button Name="groupButton" Content="Button" HorizontalAlignment="Left" Margin="585,86,0,0" VerticalAlignment="Top" Width="141" Height="50"/>
 
     </Grid>
 </Window>
