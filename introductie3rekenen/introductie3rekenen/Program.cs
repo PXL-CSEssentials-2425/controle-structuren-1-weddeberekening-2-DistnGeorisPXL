@@ -1,0 +1,15 @@
+﻿Console.WriteLine("Geef een getal");
+string input1 = Console.ReadLine();
+int number1 = int.Parse(input1);
+Console.WriteLine("Geef nog een getal");
+string input2 = Console.ReadLine();
+int number2 = int.Parse(input2);
+int plusresult = number1 + number2;
+int minusresult = number1 - number2;
+int devideresult = number1 / number2;
+int xresult = number1 * number2;
+Console.WriteLine($"De som van {number1} + {number2} is {plusresult}");
+Console.WriteLine($"De som van {number1} - {number2} is {minusresult}");
+Console.WriteLine($"De som van {number1} X {number2} is {xresult}");
+Console.WriteLine($"De som van {number1} : {number2} is {devideresult}");
+Console.ReadLine();
