@@ -1,0 +1,18 @@
+﻿<Window x:Class="rogoef1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rogoef1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="redBtn" Content="Rood" HorizontalAlignment="Left" Margin="657,81,0,0" VerticalAlignment="Top" Click="redBtn_Click"/>
+        <Button Name="orangeBtn" Content="Oranje" HorizontalAlignment="Left" Margin="657,177,0,0" VerticalAlignment="Top" Click="orangeBtn_Click"/>
+        <Button Name="greenBtn" Content="Groen" HorizontalAlignment="Left" Margin="657,255,0,0" VerticalAlignment="Top" Click="greenBtn_Click"/>
+        <Image Name="redImage" Margin="400,46,297,298" Source="/kies-je-kleur-rood-vierkante-kaart.jpeg" Stretch="Fill" Visibility="Hidden"/>
+        <Image Name="orangeImage" Margin="400,143,297,203" Source="/Yarwood-Leather-Style-Bright-Orange-01-scaled.jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image Name="greenImage" Margin="400,255,297,84" Source="/images.png" Stretch="Fill" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
